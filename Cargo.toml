@@ -1,12 +1,12 @@
 [package]
-name = "video_capture"
+name = "video-capture"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+description = "V4L2 video capture"
+repository = "https://github.com/ichergui/video-capture"
+keywords = ["linux", "video", "webcam"]
 
 [dependencies]
-linuxvideo = "0.3.0"
+h264_webcam_stream = "0.1.0"
 anyhow = "1.0.68"
-env_logger = { version = "0.10.0", default-features = false }
-
